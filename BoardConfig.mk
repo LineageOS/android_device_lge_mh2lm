@@ -18,6 +18,11 @@ TARGET_SCREEN_DENSITY := 401
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/mh2lm-perf_defconfig
 
+# LiveDisplay
+SOONG_CONFIG_NAMESPACES += lgeLiveDisplayVars
+SOONG_CONFIG_lgeLiveDisplayVars += disable_color_enhancement
+SOONG_CONFIG_lgeLiveDisplayVars_disable_color_enhancement := true
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

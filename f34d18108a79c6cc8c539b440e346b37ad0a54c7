@@ -16,6 +16,24 @@
       "message": "missed override.",
       "revId": "f34d18108a79c6cc8c539b440e346b37ad0a54c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1de9eb4_a2f1dfdf",
+        "filename": "manifest_odm.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-02-17T20:59:57Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "36d154b6_0c36f612",
+      "revId": "f34d18108a79c6cc8c539b440e346b37ad0a54c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

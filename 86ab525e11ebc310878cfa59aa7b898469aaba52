@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae1c5acf_4e5cccad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-02-17T20:35:34Z",
+      "side": 1,
+      "message": "Just do something like this:\n* https://github.com/LineageOS/android_hardware_oplus/commit/8b78d8531f1517b7e53e3472b7378782e6e6001d\n* https://github.com/LineageOS/android_device_oneplus_kebab/commit/8713b72341a731d1d524e1c56d27991fb11fa6a5",
+      "revId": "86ab525e11ebc310878cfa59aa7b898469aaba52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

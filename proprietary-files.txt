@@ -1,5 +1,5 @@
-# All unpinned blobs from V510 40f
-# mh2lm_5g-user 12 SKQ1.211103.001 2231911563102 release-keys
+## All unpinned blobs are from G850UM40c
+## mh2lm-user 12 SKQ1.211103.001 223331636afae release-keys
 
 # ACDBDATA
 vendor/etc/acdbdata/Bluetooth_cal.acdb

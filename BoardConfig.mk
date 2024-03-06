@@ -31,5 +31,8 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Vendor SPL
+VENDOR_SECURITY_PATCH := 2022-12-01
+
 # inherit from the proprietary version
 -include vendor/lge/mh2lm/BoardConfigVendor.mk

@@ -19,7 +19,7 @@ TARGET_SCREEN_DENSITY := 401
 ODM_MANIFEST_FILES += $(DEVICE_PATH)/manifest_odm.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/mh2lm-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineageos_mh2_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop

@@ -44,7 +44,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.lge
+    android.hardware.light-service.lge
 
 # Media
 PRODUCT_COPY_FILES += \

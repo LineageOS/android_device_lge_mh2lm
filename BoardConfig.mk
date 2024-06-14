@@ -17,6 +17,8 @@ TARGET_SCREEN_DENSITY := 401
 
 # HIDL
 ODM_MANIFEST_FILES += $(DEVICE_PATH)/manifest_odm.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    $(DEVICE_PATH)/framework_compatibility_matrix.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lineageos_mh2_defconfig

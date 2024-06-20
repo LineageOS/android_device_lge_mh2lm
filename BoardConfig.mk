@@ -9,9 +9,6 @@ DEVICE_PATH := device/lge/mh2lm
 # inherit from common tree
 -include device/lge/sm8150-common/BoardConfigCommon.mk
 
-# Platform
-TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
-
 # Display
 TARGET_SCREEN_DENSITY := 401
 
@@ -22,6 +19,9 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lineageos_mh2_defconfig
+
+# Lights
+$(call soong_config_set,LGE_LIGHTS_HAL,INCLUDE_DIR,$(DEVICE_PATH)/include)
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop

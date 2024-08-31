@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.mh2lm \
     libRbsFlow_shim
 
 # Keylayout

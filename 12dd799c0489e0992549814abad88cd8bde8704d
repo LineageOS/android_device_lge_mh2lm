@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c21c6b9_da4dde4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-09-09T06:27:04Z",
+      "side": 1,
+      "message": "Proof of concept. It should be moved to hardware/lge.\n\n(It might even benefit some other Egistec devices out there; for scientific research I took apart eqs\u0027s fingerprint service and everything, even UDFPS, is identical...)",
+      "revId": "12dd799c0489e0992549814abad88cd8bde8704d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

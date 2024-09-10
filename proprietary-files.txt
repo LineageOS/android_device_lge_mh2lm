@@ -149,7 +149,6 @@ vendor/lib/liblghdri.so
 vendor/lib/libmorpho_image_stab31.so
 vendor/lib/libmorpho_wdr2.so
 vendor/lib/libmpbase.so
-vendor/lib/libsnsapi.so
 vendor/lib/libspectre3.so
 vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib64/hw/camera.msmnile.so
@@ -185,7 +184,6 @@ vendor/lib64/liblghdri.so
 vendor/lib64/libmorpho_image_stab31.so
 vendor/lib64/libmorpho_wdr2.so
 vendor/lib64/libmpbase.so
-vendor/lib64/libsnsapi.so
 vendor/lib64/libspectre3.so
 
 # Camera - Automatic white balancing and exposure

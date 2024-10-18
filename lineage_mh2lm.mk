@@ -26,7 +26,6 @@ TARGET_VENDOR_DEVICE_NAME := mh2lm
 PRODUCT_GMS_CLIENTID_BASE := android-lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=mh2lm \
-    PRIVATE_BUILD_DESC="mh2lm-user 12 SKQ1.211103.001 223331636afae release-keys"
-
-BUILD_FINGERPRINT := lge/mh2lm/mh2lm:12/SKQ1.211103.001/223331636afae:user/release-keys
+    DeviceProduct=mh2lm \
+    BuildDesc="mh2lm-user 12 SKQ1.211103.001 223331636afae release-keys" \
+    BuildFingerprint=lge/mh2lm/mh2lm:12/SKQ1.211103.001/223331636afae:user/release-keys

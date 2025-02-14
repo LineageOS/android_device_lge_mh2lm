@@ -59,9 +59,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     sensors.lge
 
-# Shipping API Level
-PRODUCT_SHIPPING_API_LEVEL := 28
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

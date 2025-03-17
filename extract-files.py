@@ -26,9 +26,7 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/hw/fingerprint.msmnile.so': blob_fixup()
         .add_needed('libRbsFlow_shim.so'),
     (
-        'vendor/lib/liblgdnnsnpe.so',
         'vendor/lib64/liblgdnnsnpe.so',
-        'vendor/lib/liblgsnpeawb.so',
         'vendor/lib64/liblgsnpeawb.so')
     : blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),

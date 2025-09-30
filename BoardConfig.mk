@@ -16,7 +16,6 @@ TARGET_SCREEN_DENSITY := 401
 $(call soong_config_set,LGE_FINGERPRINT_HAL,TARGET_HAS_EGISTEC_UDFPS,true)
 
 # HIDL
-ODM_MANIFEST_FILES += $(DEVICE_PATH)/manifest_odm.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/framework_compatibility_matrix.xml
 

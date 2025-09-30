@@ -9,6 +9,9 @@ DEVICE_PATH := device/lge/mh2lm
 # inherit from common tree
 -include device/lge/sm8150-common/BoardConfigCommon.mk
 
+# Audio - LGE
+BOARD_LGE_HAS_HIFI_QUAD_DAC := true
+
 # Display
 TARGET_SCREEN_DENSITY := 401
 
